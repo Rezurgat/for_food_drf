@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "foodsite_drf"
+version = "0.1.0"
+description = ""
+authors = ["Rezurgat <Killa.S.V.ru@bk.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+djangorestframework = "^3.13.1"
+flake8 = "^4.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
